@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { ReactComponent as Hands } from './hands.svg'
 
 export default function Navba(props) {
 	return (
@@ -8,6 +9,7 @@ export default function Navba(props) {
 				<Link className='Logo' to='/'>
 					<h1 className='TabLogo' label='Logo'>
 						ProCollab
+						<Hands className='hands' />
 					</h1>
 				</Link>
 			</div>
